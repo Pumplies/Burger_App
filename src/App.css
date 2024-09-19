@@ -1,0 +1,17 @@
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Для браузеров на базе WebKit (Chrome, Safari) */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Для Firefox */
+    .no-scrollbar {
+      scrollbar-width: none;
+    }
+  }
